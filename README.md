@@ -6,7 +6,7 @@ Use **`make help`** in the terminal to list available commands. Makefile is used
 
 ### Install Dependencies
 
-`compose install`
+`composer install`
 
 ---
 
