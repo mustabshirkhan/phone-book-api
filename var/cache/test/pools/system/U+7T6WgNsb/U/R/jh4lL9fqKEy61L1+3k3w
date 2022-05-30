@@ -1,0 +1,3 @@
+<?php //route_name_35bdab1dcf01c32359c72ed970577cc0
+
+return [PHP_INT_MAX, 'api_contacts_get_collection'];

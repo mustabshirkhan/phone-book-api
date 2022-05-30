@@ -1,0 +1,370 @@
+<?php //resource_metadata_522a137b00ffaa764eab94e4bb13d649
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['ApiPlatform\\Core\\Metadata\\Resource\\ResourceMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('ApiPlatform\\Core\\Metadata\\Resource\\ResourceMetadata')),
+    ],
+    null,
+    [
+        'ApiPlatform\\Core\\Metadata\\Resource\\ResourceMetadata' => [
+            'shortName' => [
+                'Contact',
+            ],
+            'description' => [
+                '',
+            ],
+            'itemOperations' => [
+                [
+                    'get' => [
+                        'method' => 'GET',
+                        'stateless' => null,
+                        'input_formats' => [
+                            'json' => [
+                                'application/json',
+                            ],
+                            'jsonld' => [
+                                'application/ld+json',
+                            ],
+                            'html' => [
+                                'text/html',
+                            ],
+                            'multipart' => [
+                                'multipart/form-data',
+                            ],
+                        ],
+                        'output_formats' => [
+                            'json' => [
+                                'application/json',
+                            ],
+                            'jsonld' => [
+                                'application/ld+json',
+                            ],
+                            'html' => [
+                                'text/html',
+                            ],
+                            'multipart' => [
+                                'multipart/form-data',
+                            ],
+                        ],
+                    ],
+                    'patch' => [
+                        'method' => 'PATCH',
+                        'stateless' => null,
+                        'input_formats' => [
+                            'json' => [
+                                'application/merge-patch+json',
+                            ],
+                        ],
+                        'output_formats' => [
+                            'json' => [
+                                'application/json',
+                            ],
+                            'jsonld' => [
+                                'application/ld+json',
+                            ],
+                            'html' => [
+                                'text/html',
+                            ],
+                            'multipart' => [
+                                'multipart/form-data',
+                            ],
+                        ],
+                    ],
+                    'delete' => [
+                        'method' => 'DELETE',
+                        'stateless' => null,
+                        'input_formats' => [
+                            'json' => [
+                                'application/json',
+                            ],
+                            'jsonld' => [
+                                'application/ld+json',
+                            ],
+                            'html' => [
+                                'text/html',
+                            ],
+                            'multipart' => [
+                                'multipart/form-data',
+                            ],
+                        ],
+                        'output_formats' => [
+                            'json' => [
+                                'application/json',
+                            ],
+                            'jsonld' => [
+                                'application/ld+json',
+                            ],
+                            'html' => [
+                                'text/html',
+                            ],
+                            'multipart' => [
+                                'multipart/form-data',
+                            ],
+                        ],
+                    ],
+                    'put' => [
+                        'controller' => 'App\\Controller\\ContactsUpdateAction',
+                        'method' => 'POST',
+                        'path' => 'contacts/{id}',
+                        'deserialize' => false,
+                        'openapi_context' => [
+                            'requestBody' => [
+                                'content' => [
+                                    'multipart/form-data' => [
+                                        'schema' => [
+                                            'type' => 'object',
+                                            'properties' => [
+                                                'firstName' => [
+                                                    'type' => 'string',
+                                                    'example' => 'lilly',
+                                                ],
+                                                'lastName' => [
+                                                    'type' => 'string',
+                                                    'example' => 'doo',
+                                                ],
+                                                'email' => [
+                                                    'type' => 'string',
+                                                    'format' => 'email',
+                                                    'example' => 'john.doe@example.com',
+                                                ],
+                                                'address' => [
+                                                    'type' => 'string',
+                                                    'example' => 'Frankfurter Strasse 15',
+                                                ],
+                                                'phoneNumber' => [
+                                                    'type' => 'string',
+                                                    'example' => '19987856',
+                                                    'required' => true,
+                                                ],
+                                                'dob' => [
+                                                    'type' => 'string',
+                                                    'format' => 'string',
+                                                    'example' => '1998-04-15',
+                                                ],
+                                                'file' => [
+                                                    'type' => 'string',
+                                                    'format' => 'binary',
+                                                ],
+                                            ],
+                                        ],
+                                    ],
+                                ],
+                            ],
+                        ],
+                        'input' => null,
+                        'output' => null,
+                        'stateless' => null,
+                        'input_formats' => [
+                            'json' => [
+                                'application/json',
+                            ],
+                            'jsonld' => [
+                                'application/ld+json',
+                            ],
+                            'html' => [
+                                'text/html',
+                            ],
+                            'multipart' => [
+                                'multipart/form-data',
+                            ],
+                        ],
+                        'output_formats' => [
+                            'json' => [
+                                'application/json',
+                            ],
+                            'jsonld' => [
+                                'application/ld+json',
+                            ],
+                            'html' => [
+                                'text/html',
+                            ],
+                            'multipart' => [
+                                'multipart/form-data',
+                            ],
+                        ],
+                    ],
+                ],
+            ],
+            'collectionOperations' => [
+                [
+                    'get' => [
+                        'method' => 'GET',
+                        'stateless' => null,
+                        'input_formats' => [
+                            'json' => [
+                                'application/json',
+                            ],
+                            'jsonld' => [
+                                'application/ld+json',
+                            ],
+                            'html' => [
+                                'text/html',
+                            ],
+                            'multipart' => [
+                                'multipart/form-data',
+                            ],
+                        ],
+                        'output_formats' => [
+                            'json' => [
+                                'application/json',
+                            ],
+                            'jsonld' => [
+                                'application/ld+json',
+                            ],
+                            'html' => [
+                                'text/html',
+                            ],
+                            'multipart' => [
+                                'multipart/form-data',
+                            ],
+                        ],
+                    ],
+                    'post' => [
+                        'controller' => 'App\\Controller\\ContactsController',
+                        'deserialize' => false,
+                        'validation_groups' => [
+                            'Default',
+                            'media_object_create',
+                        ],
+                        'openapi_context' => [
+                            'requestBody' => [
+                                'content' => [
+                                    'multipart/form-data' => [
+                                        'schema' => [
+                                            'type' => 'object',
+                                            'properties' => [
+                                                'firstName' => [
+                                                    'type' => 'string',
+                                                    'example' => 'Demo',
+                                                ],
+                                                'lastName' => [
+                                                    'type' => 'string',
+                                                    'example' => 'USer',
+                                                ],
+                                                'email' => [
+                                                    'type' => 'string',
+                                                    'format' => 'email',
+                                                    'example' => 'john.doe@example.com',
+                                                ],
+                                                'address' => [
+                                                    'type' => 'string',
+                                                    'example' => 'Main Hessen Frankfurt',
+                                                ],
+                                                'phoneNumber' => [
+                                                    'type' => 'string',
+                                                    'example' => '19987856',
+                                                ],
+                                                'dob' => [
+                                                    'type' => 'string',
+                                                    'format' => 'string',
+                                                    'example' => '1998-04-15',
+                                                ],
+                                                'file' => [
+                                                    'type' => 'string',
+                                                    'format' => 'binary',
+                                                ],
+                                            ],
+                                        ],
+                                    ],
+                                ],
+                            ],
+                        ],
+                        'input' => null,
+                        'output' => null,
+                        'method' => 'POST',
+                        'stateless' => null,
+                        'input_formats' => [
+                            'json' => [
+                                'application/json',
+                            ],
+                            'jsonld' => [
+                                'application/ld+json',
+                            ],
+                            'html' => [
+                                'text/html',
+                            ],
+                            'multipart' => [
+                                'multipart/form-data',
+                            ],
+                        ],
+                        'output_formats' => [
+                            'json' => [
+                                'application/json',
+                            ],
+                            'jsonld' => [
+                                'application/ld+json',
+                            ],
+                            'html' => [
+                                'text/html',
+                            ],
+                            'multipart' => [
+                                'multipart/form-data',
+                            ],
+                        ],
+                    ],
+                ],
+            ],
+            'graphql' => [
+                [
+                    'item_query' => [],
+                    'collection_query' => [],
+                    'delete' => [],
+                    'update' => [],
+                    'create' => [],
+                ],
+            ],
+            'attributes' => [
+                [
+                    'pagination_items_per_page' => 10,
+                    'cache_headers' => null,
+                    'denormalization_context' => [
+                        'groups' => [
+                            'write',
+                        ],
+                    ],
+                    'deprecation_reason' => null,
+                    'elasticsearch' => null,
+                    'fetch_partial' => null,
+                    'force_eager' => null,
+                    'formats' => null,
+                    'filters' => [
+                        'annotated_app_entity_contact_api_platform_core_bridge_doctrine_orm_filter_search_filter',
+                    ],
+                    'hydra_context' => null,
+                    'input' => null,
+                    'mercure' => null,
+                    'messenger' => null,
+                    'normalization_context' => [
+                        'groups' => [
+                            'read',
+                        ],
+                    ],
+                    'openapi_context' => null,
+                    'order' => null,
+                    'output' => null,
+                    'pagination_client_enabled' => null,
+                    'pagination_client_items_per_page' => null,
+                    'pagination_client_partial' => null,
+                    'pagination_via_cursor' => null,
+                    'pagination_enabled' => null,
+                    'pagination_fetch_join_collection' => null,
+                    'pagination_maximum_items_per_page' => null,
+                    'pagination_partial' => null,
+                    'route_prefix' => null,
+                    'security' => null,
+                    'security_message' => null,
+                    'security_post_denormalize' => null,
+                    'security_post_denormalize_message' => null,
+                    'stateless' => null,
+                    'sunset' => null,
+                    'swagger_context' => null,
+                    'validation_groups' => null,
+                    'url_generation_strategy' => null,
+                    'composite_identifier' => null,
+                ],
+            ],
+        ],
+    ],
+    $o[0],
+    []
+); }];
